@@ -1,1 +1,1 @@
-# cardygen-releases
+# Cardygan
