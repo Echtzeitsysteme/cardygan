@@ -9,6 +9,13 @@ CardyGAn offers the following functionality:
 ## Installation
 In Eclipse install CardyGAn via Updatesite: https://raw.githubusercontent.com/Echtzeitsysteme/cardygan/master/updatesite/
 
+CardyGAn has been tested for Eclipse Mars.1
+Additional features needed to run CardyGAn:
+* Feature IDE 2.7: http://wwwiti.cs.uni-magdeburg.de/iti_db/research/featureide/
+  * Updatesite: http://wwwiti.cs.uni-magdeburg.de/iti_db/research/featureide/deploy/ (Install *FeatureIDE* and *Feature Modeling*)
+* XText 2.8: https://eclipse.org/Xtext/
+  * Updatesite: http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/ (Install Xtext > Xtext Complete SDK)
+
 ## Configure CardyGAn
 ### Set Solver Library path
 For bound analysis CardyGAn relies either on Cplex, Gurobi 6.5 or GLPK as ILP-solvers.
